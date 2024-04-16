@@ -21,6 +21,7 @@ function App() {
           {/* <Route path="/signup" element={<SignupForm />} />
           <Route path="/login" element={<LoginForm />} /> */}
         </Routes>
+        <HomePage />
       </div>
     </Router>
   );
