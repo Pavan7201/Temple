@@ -1,12 +1,10 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/header";
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import SearchPage from './pages/ServicesPage';
+import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
-// import LoginForm from './pages/LoginForm';
-// import SignupForm from './pages/SignupForm';
-// import LoginForm from './pages/login';
 
 function App() {
   return (
@@ -14,14 +12,11 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route index element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/services" element={<SearchPage/>} />
-          <Route path="/contact" element={<ContactPage/>} />
-          {/* <Route path="/signup" element={<SignupForm />} />
-          <Route path="/login" element={<LoginForm />} /> */}
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
-        <HomePage />
       </div>
     </Router>
   );

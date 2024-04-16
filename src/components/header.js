@@ -12,13 +12,13 @@ const Header = () => {
             <header className="header">
                 <div className="logo">
                     <span>
-                        <img src={icon} alt="logo" />
+                        <img src={icon} alt="logo"></img>
                     </span>
                     <h2>
-                        <span>
-                            T
-                        </span>
-                        emple ૐ
+                    <span>
+                        T
+                    </span>
+                    emple ૐ
                     </h2>
                 </div>
 
