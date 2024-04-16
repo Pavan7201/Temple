@@ -1,0 +1,50 @@
+.header {
+  background-color: 	#FFFF8F;
+  display: grid;
+  align-items:last baseline;
+  transition: top 0.3s ease-in-out;
+  top: 0;
+  border-radius: 0px 0px 80px 80px;
+}
+
+span img{
+  height: 50px;
+  margin: 20px 10px 0px 50px;
+}
+
+.logo h2 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px 0px 0px 0px;
+}
+
+.logo h2 span {
+  font-size: 4rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu{
+  grid-column: 3/6;
+  display: flex; 
+  justify-content: space-around;
+}
+
+.menu a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: rgba(0, 0, 3, 0.8);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: rgb(223, 13, 13);
+  transition: 0.3s;
+}
