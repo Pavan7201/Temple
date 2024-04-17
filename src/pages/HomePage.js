@@ -6,8 +6,8 @@ import Carousel from '../components/Carousel';
 const HomePage = () => {
   return (
     <div>
-      <Dropdown />,
-      <Search />,
+      <Dropdown />
+      <Search />
       <Carousel /> 
     </div>
   );
