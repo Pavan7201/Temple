@@ -1,19 +1,21 @@
+/* Default styles */
+
 .header {
-  background-color:#FFFF8F;
+  background-color: #FFFF8F;
   display: grid;
-  align-items:last baseline;
+  align-items: last baseline;
   transition: top 0.3s ease-in-out;
   top: 0;
   border-radius: 0px 0px 80px 80px;
 }
 
-span img{
+span img {
   height: 50px;
   margin: 20px 10px 0px 50px;
 }
 
 .logo h2 {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -30,9 +32,9 @@ span img{
   align-items: center;
 }
 
-.menu{
+.menu {
   grid-column: 3/6;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
 }
 
@@ -47,4 +49,49 @@ span img{
 .menu a:hover {
   color: rgb(223, 13, 13);
   transition: 0.3s;
+}
+
+/* Media query for smaller resolutions */
+
+@media screen and (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    padding:0px;
+  }
+
+  span img {
+    height: 30px;
+    margin: 3px 0px 0px 0px;
+  }
+
+  .logo h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .logo h2 span {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu {
+  grid-column: initial;
+  margin-top: 20px;
+  justify-content: space-around; /* Centering the menu items */
+  flex-wrap: wrap; /* Wrap menu items if they overflow */
+}
+
+.menu a {
+  margin: 10px; /* Adding margin around menu items */
+  font-size: 10px; /* Adjusting font size */
+}
 }
