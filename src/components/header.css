@@ -86,12 +86,12 @@ span img {
 .menu {
   grid-column: initial;
   margin-top: 20px;
-  justify-content: space-around; /* Centering the menu items */
-  flex-wrap: wrap; /* Wrap menu items if they overflow */
+  justify-content: space-around;
+  flex-wrap: wrap; 
 }
 
 .menu a {
-  margin: 10px; /* Adding margin around menu items */
-  font-size: 10px; /* Adjusting font size */
+  margin: 1px 10px;
+  font-size: 10px; 
 }
 }
