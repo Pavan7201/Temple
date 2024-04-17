@@ -91,7 +91,7 @@ span img {
 }
 
 .menu a {
-  margin: 10px; /* Adding margin around menu items */
+  margin: 0px; /* Adding margin around menu items */
   font-size: 10px; /* Adjusting font size */
 }
 }
