@@ -53,9 +53,10 @@ span img {
 
 /* Media query for smaller resolutions */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 319px) {
+  /* Your CSS styles for smaller smartphones */
   .header {
-    grid-template-columns: 1fr;
+    grid-template-columns: 5fr;
     justify-items: center;
     text-align: center;
     padding:0px;
@@ -95,3 +96,49 @@ span img {
   font-size: 10px; 
 }
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header {
+    grid-template-columns: 5fr;
+    justify-items: center;
+    text-align: center;
+    padding:0px;
+  }
+
+  span img {
+    height: 30px;
+    margin: 3px 0px 0px 0px;
+  }
+
+  .logo h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .logo h2 span {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu {
+  grid-column: initial;
+  margin-top: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.menu a {
+  margin: 1px 10px;
+  font-size: 10px; 
+}
+}
+
+
+
