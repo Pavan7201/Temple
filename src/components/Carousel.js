@@ -120,8 +120,7 @@ const Carousel = () => {
               </div>
               </div>
             </div>
-          </div>
-          
+          </div>  
       )}
       {showCaption2Popup && (
       <div className='overlay'>
