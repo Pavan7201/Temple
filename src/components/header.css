@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to left,violet,skyblue,white);
+  background: linear-gradient(to left,blue,skyblue,white);
   display: grid;
   align-items: last baseline;
   top: 0;
