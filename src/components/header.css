@@ -1,14 +1,18 @@
-/* Default styles */
-
 .header {
-  background-color: #FFFF8F;
+  background: linear-gradient(to left,violet,skyblue,white);
   display: grid;
   align-items: last baseline;
-  transition: top 0.3s ease-in-out;
   top: 0;
   border-radius: 0px 0px 80px 80px;
+  transition: top 0.3s ease-in-out;
 }
 
+.img{
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: none;
+}
 span img {
   height: 50px;
   margin: 20px 10px 0px 50px;
@@ -20,6 +24,10 @@ span img {
   font-weight: 400;
   text-transform: uppercase;
   margin: 15px 0px 0px 0px;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
 }
 
 .logo h2 span {
@@ -33,7 +41,7 @@ span img {
 }
 
 .menu {
-  grid-column: 3/6;
+  grid-column:3/6;
   display: flex;
   justify-content: space-around;
 }
@@ -60,6 +68,10 @@ span img {
     justify-items: center;
     text-align: center;
     padding:0px;
+  }
+
+  .img{
+    width: 15px;
   }
 
   span img {
@@ -103,6 +115,11 @@ span img {
     justify-items: center;
     text-align: center;
     padding:0px;
+  }
+
+  .img{
+    width: 15px;
+    margin-left: 5px;
   }
 
   span img {

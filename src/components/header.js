@@ -2,14 +2,16 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './header.css';
 import icon from "./assets/icon.png";
+import pray from "./assets/pray.png"
 
 const Header = () => {
     const location = useLocation(); // Get current location
 
     return (
-        <div>
+        <div> 
             {/* logo and Temple */}
             <header className="header">
+                
                 <div className="logo">
                     <span>
                         <img src={icon} alt="logo"></img>
@@ -18,8 +20,9 @@ const Header = () => {
                     <span>
                         T
                     </span>
-                    emple ૐ
+                    emple 
                     </h2>
+                    <img className='img' src={pray} alt='praying'></img>
                 </div>
 
                 {/* navbar menu */}

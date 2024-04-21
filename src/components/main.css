@@ -8,18 +8,18 @@
 .dropdown-menu {
   flex: 1;
   position: relative;
-  margin: 0px 5px; 
+  margin: 10px 4px; 
   z-index: 1;
 }
   
 .toggle-button {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   background-color: #FFFDD0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   color: black;
-  padding: 9px;
+  padding: 5px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -45,7 +45,7 @@
 .dropdown-content a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: block;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   box-sizing: border-box;
   color: black;
@@ -108,7 +108,7 @@
 /* Common styles for all screen sizes */
 .image {
   position: relative;
-  top: 10px;
+  top: 0px;
   width: 90%;
   height: 350px;
   margin: 0 auto;
@@ -309,6 +309,3 @@
   } 
 }
 
-
-
->>>>>>> branch1
